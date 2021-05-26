@@ -1,0 +1,188 @@
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(196, 231, 247)), to(rgb(238, 238, 238))) fixed;    
+
+}
+
+.painel-aluno{
+    padding: 40px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(100, 100, 220)), to(rgb(238, 238, 238))) fixed;
+    height: 92.5vh;
+}
+
+.img-aluno{
+    height: 100px;
+    
+}
+
+.align-img{
+    text-align: center;
+}
+
+
+
+
+ .divsao{
+     background-color: black;
+ }
+
+ .bt-OP{
+     width: 50%;
+     border-radius: 5px;
+     font-size: 18px;
+     background-color: transparent;
+     transition-property: width;
+     transition-duration: 0.5s;
+ }
+ .bt-OP:hover{
+     width: 65%;
+ }
+
+ .icon{
+    
+    float: left; 
+    margin-top: 2px;
+ }
+
+ .border-img{
+     border: 3px solid black;
+     border-radius: 5px;
+     
+ }
+
+ .d-name{
+    text-decoration: underline;
+    font-size: 16.8px;
+ }
+
+ .d-name1{
+    text-decoration: underline;
+ }
+
+ .container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    }
+
+.container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+}
+
+
+.td-width{
+    width: 200px;
+    
+}
+.falta-bd{
+    margin-left: 30%;
+     margin-right: 30%;
+     border: 4px solid black;
+    border-radius: 5px;
+    background-color: rgb(208, 188, 238);
+    font-size: 19px;
+    padding: 5px;
+}
+
+.middle{
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 1.5%;
+    font-size: 18px;
+    /* text-decoration: underline; */
+}
+
+.middle2{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 1.5%;
+    font-size: 18px;
+    /* text-decoration: underline; */
+}
+
+
+.div-sao{
+    margin-top: 5px;
+    background-color: rgba(79, 60, 221, 0.183);
+    border-radius: 10px;
+    transition-property: background-color,color;
+    transition-duration: 0.5s;
+}
+
+.div-sao:hover{
+background-color: rgb(99, 144, 248);
+color: white;
+}
+
+.href{
+    text-decoration: none;
+    color: black;
+}
+
+.href:hover{
+    color: rgb(81, 81, 81);
+}
+
+.div-sao2{
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(43, 17, 240, 0.591);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.div-sao3{
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(125, 52, 181, 0.591);
+    border-radius: 5px;
+    padding: 3px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.div-sao3:hover{
+    background-color: rgb(101, 101, 247);
+}
+
+
+
+.box{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    transition-property: padding;
+    transition-duration: 0.3s;
+}
+
+.box:hover{
+    padding: 2px;
+}
+
+.titulo{
+    text-decoration: underline;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.descricao{
+    font-size: 16.7;
+    margin-bottom: 3px;
+}
+
+.data{
+    font-size: 15px;
+}
+
+.middle3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

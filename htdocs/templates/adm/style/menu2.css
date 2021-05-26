@@ -1,0 +1,146 @@
+@font-face {
+    font-family: l1;
+    src: url(./font/letter.ttf);
+}
+
+
+.back-g-color{
+    background-color: rgb(128, 126, 233);
+}
+
+.menu{
+    position:absolute;
+
+    width: 200px;
+    height: 100%;
+
+    background-color: rgb(76, 0, 128);
+    border-radius: 2px;
+    
+    
+}
+
+
+.conteudo{
+    margin-left: 204px;
+    margin-top: 2px;
+    
+}
+
+.dashboard{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+    transition-property: font-size,color,width;
+    transition-duration: 0.5s;
+}
+
+.dashboard:hover{
+    font-size: 35px;
+    color: lightblue;
+
+}
+
+.btn-dropdown{
+    width: 120px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    width: 147.5px;
+}
+
+
+.btn-forms{
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+}
+
+.btn-forms:hover{
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.faixa{
+
+    background: linear-gradient(20deg,white,rgb(144, 107, 247));
+    height: 30px;
+    width: all;
+    width: 1200px;
+}
+.faixa-2{
+ 
+    background: linear-gradient(20deg,rgb(34, 106, 238),white);
+    height: 30px;
+    margin-top: all;
+    width: 1200px;
+}
+    .capa{
+ display: table;
+ width: 100%
+}
+ .texto-capa{
+text-align: center;
+color: white;
+display: table-cell;
+vertical-align: middle;
+}
+ html, body, .capa{
+height: 80%;
+
+
+}
+.color-msg{
+    color: black;
+    
+}
+
+.btne{
+    font-family: Verdana, sans-serif;
+    width: 120px;
+    height: 35px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    transition: 2s;
+    
+
+}
+
+.link-none{
+    text-decoration: none;
+}
+
+
+
+.colorcolor{
+    color:rgb(188, 110, 240);
+}
+
+
+.btn-desvincular{
+    text-decoration: none;
+    color: red;
+}
+
+.btn-desvincular:hover{
+    color: white;
+}
+
+.recados{
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+.img-full{
+    width: 86vw;
+    height: 92vh
+}

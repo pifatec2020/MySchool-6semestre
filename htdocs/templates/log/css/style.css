@@ -1,0 +1,97 @@
+body {
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(203, 70, 226)), to(rgb(146, 104, 251))) fixed;    
+
+}
+@font-face {
+    font-family: ft1;
+    src: url('./fonts/fonte1.otf');
+}
+@font-face {
+    font-family: ft2;
+    src: url('./fonts/fonte3.ttf');
+}
+@font-face {
+    font-family: ft3;
+    src: url('./fonts/fonte4.otf');
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    /* font-family: ft2; */
+    font-size: 55px;
+    transition-property: font-family;
+    transition-duration: 1s;
+    
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    /* font-family: ft2; */
+    
+}
+
+.info{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    font-size: 18px;
+    background-color: transparent; 
+    /* background-color: rgb(55, 99, 202); */
+    font-family: ft1;
+    font-size: 40px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid black;
+    transition-property:background-color,color,font-size;
+    transition-duration: 0.6s;
+    color: black;
+    margin-top: 3px;
+    border-radius: 20px;
+ 
+}
+.box2{
+    font-size: 18px;
+    background-color: rgb(2, 41, 74);
+    font-family: ft1;
+    font-size: 40px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid black;
+    transition-property:background-color,color,font-size;
+    transition-duration: 0.6s;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    border-radius: 5px;
+ 
+}
+.box:hover{
+
+background-color: rgb(129, 166, 255);
+color: white;
+font-size: 55px;
+
+}
+
+.box2:hover{
+    font-size: 55px;
+}
+.a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.a:hover{
+    color: black;
+}
